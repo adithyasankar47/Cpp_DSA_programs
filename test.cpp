@@ -1,44 +1,43 @@
-#include <iostream>
+// C++ program to sort an array
+// with 0, 1 and 2 in a single pass
+#include <bits/stdc++.h>
 using namespace std;
-void sortArray(int arr[], int n)
+// Function to sort the input array,
+// the array is assumed
+// to have values in {0, 1, 2}
+void sort(int a[], int n)
 {
-    int newarr[n];
-    int n0 = 0, n1 = 0, n2 = 0;
-    for(int i=0; i<n; ++i)
-    {
-        if(arr[i] == 0)
-        {
-            ++n0;
-        }   
-        else if (arr[i] == 1)
-        {
-            ++n1;
-        }   
-        else
-        {
-            ++n2;
-        }     
-    }
-    for(int i =0;i<n0;++i)
-    {
-        newarr[i] = 0;
-        cout<<newarr[i]<<" ";
-    }    
-    for(int i = n0;i<n1+n0;++i)
-    {
-        newarr[i] = 1;
-        cout<<newarr[i]<<" ";
-    }
-    for(int i = n1+n0; i<n1+n2+n0;++i)
-    {
-        newarr[i] = 2;
-        cout<<newarr[i]<<" ";
-    }
+	int lo = 0;
+	int hi = n - 1;
+	int mid = 0;
+
+	// Iterate till all the elements
+	// are sorted
+	while (mid <= hi) {
+		switch (a[mid]) {
+		// If the element is 0
+		case 0:
+			swap(a[lo++], a[mid++]);
+			break;
+		// If the element is 1 .
+		case 1:
+			mid++;
+			break;
+		// If the element is 2
+		case 2:
+			swap(a[mid], a[hi--]);
+			break;
+		}
+	}
+    for (int i = 0; i < n; i++)
+		cout << a[i] << " ";
 }
+
 int main()
 {
-    int arr[] = {0,1,2,0,1,1,1,0,0,2,1,0};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    sortArray(arr, n); 
-    return 0;
+	int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
+	int n = sizeof(arr) / sizeof(arr[0]);
+    cout << "array after seperation";
+	sort(arr, n);
+	return 0;
 }
