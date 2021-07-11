@@ -41,3 +41,4 @@ int main()
     int n = sizeof(arr)/sizeof(arr[0]);
     sortArray(arr, n); 
     return 0;
+}
