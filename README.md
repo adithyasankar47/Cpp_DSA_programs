@@ -3,6 +3,7 @@
 This repo contains solutions DSA(Data Structures and Algorithms) questions solved using **C++**
 
 - The questions are taken from _GeeksForGeeks_ and _LeetCode_
+- Folders have been created for ease of checking a particular topic
 - The questions and their solutions have been seggregated into _easy_, _medium_ and _hard_ category.
 
 The links to the questions and a short summary is provided as a comment at the top of each question. You might find multiple answers to some questions. The first answer is done using the first approach that came to my mind, like a brute force approach. Better approaches, i.e with better time and space complexity, mostly using a different algorithm are also included to some questions. I added them after stumbling upon efficient solutions on the internet.
