@@ -3,7 +3,9 @@
 using namespace std;
 int main()
 {
-    vector <int> a(5,1); //initializes vector a of size with 1 as the element
+    //Vectors are like doubly ended queue
+    //initializes vector a of size with 1 as the element
+    vector <int> a(5,1);  
     vector <int> last(a);
     //capacity gets doubled if overflow occurs
     vector <int> v;
@@ -17,10 +19,12 @@ int main()
     //Capacity is the number of memory locations allotted for the vector
     cout<<"Size-> "<<v.size()<<endl;
     //Size is the number of memory locations used by the vector
+
     cout<<"Element at 2nd Index is "<<v.at(2)<<endl;
     cout<<"First element-> "<<v.front()<<endl;
     cout<<"Last element-> "<<v.back()<<endl;
     cout<<"Before pop"<<endl;
+
     for(int i:v)
     {
         cout<<i<<" ";
@@ -51,12 +55,6 @@ int main()
         cout<<i<<" ";
         
     }cout<<endl;
-
-
-
-
-
-
 
     return 0;
 }
