@@ -116,3 +116,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+Sorting/t.exe
+STL_examples/t.exe
+STL_examples/t.exe
