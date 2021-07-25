@@ -1,0 +1,82 @@
+# Things to learn in DSA
+
+- Arrays
+  - Sorting
+    - Bubble
+    - Selection
+    - Insertion
+    - Merge
+    - Quick
+    - Count
+    - DNF
+    - Wave
+  - Searching
+    - Linear
+    - Binary
+  - Sub array
+  - Character Array
+  - 2D Array
+- Pointers
+- Strings
+- BIT Manipulation
+- Recursion
+- Backtracking
+- Permutation
+- OOP
+ - Encapsulation
+ - Inheritance
+ - Polymorphism
+- Linked List
+  - Insertion
+  - Deletion
+  - Reverse
+  - Reverse K nodes
+  - Doubly linked list
+  - Append last K nodes
+  - Find intersection point between two linked list
+  - Merge 2 sorted linked list
+  - Circular Linked list
+  - Put even position nodes after odd position ones
+- Time Complexity and Masters Theorem 
+- Stack
+ - Reverse a sentence using stacks
+ - Reverse a stack
+- Prefix, postfix and infix
+- Queue
+  - Stack using queues
+  - Sliding window maximum using deque
+- Largest Rectangle
+- Trapping Rainwater
+- Redundant Parenthesis
+- The Stock span problem
+- Longest substring without repeating characters
+- Binary Tree
+  - Traversals
+    - Preorder
+    - Inorder
+    - Postorder
+  - Build Tree from Preorder and Inorder
+  - Build Tree from Postorder and Inorder
+  - Level order Traversal, sum at K'th level in Binary Tree
+  - Count and sum of Binary Tree
+  - Height and diameter in Binary tree
+  - Sum replacement in Binary tree
+  - Right view of Binary tree
+  - Left view of Binary tree
+  - Shorten distance between two nodes
+  - Flatten a Binary tree
+  - Nodes at distance K in Binary tree
+  - Lowest Common ancestor in Binary tree
+  - Max Sum Path from one node to another
+- Binary Search Tree
+  - Build
+  - Search and Delete
+  - Construct from preorder
+  - Check for BST
+  - Build BST from sorted array
+  - Catalan Numbers Application
+  - Zig zag traversal
+  - Identical BST
+  - Largest BST
+  - Recover BST
+   
