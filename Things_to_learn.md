@@ -79,4 +79,110 @@
   - Identical BST
   - Largest BST
   - Recover BST
-   
+- Set and Multiset
+- Place elements and maximise minimum distance
+- Page allocation problem
+- Painters partition problem
+- Search in sorted and rotated array
+- Find the peak element
+- Sliding window
+   - Max sum subarray
+   - Minimum subarray size
+   - Form number divisible by 3
+   - Subarray with Palindromic concatenation
+   - Perfect numbers in subarray
+- Heap
+  - heapsort
+  - Heap STL
+  - Median of running stream
+  - Merge K sorted arrays
+  - Smallest sequence with sum K
+- Hashing
+  - STL
+  - Count frequency of elements
+  - Vertical order print
+  - Number of subarray with sum 0
+  - Sliding windows technique
+  - Top k most frequent elements
+  - Sudoku solver
+- Greedy algorithm
+  - Indian coin challenge
+  - Activity selection problem
+  - Fractional Knapsack
+  - Optimal Pattern Merge 
+  - Expedi
+  - Maximum and minimum difference
+- Graphs
+  - Representation
+  - Terminologies
+  - BFS(Breadth First Search)
+  - DFS(Depth First Search)
+  - Cycle detection in undirected graphs
+  - Cycle detection in directed graphs
+  - Connected components
+  - Bipartite graph
+  - Disjoint set union
+  - cycle detection in undirected graphs using  DSU
+  - Snakes and ladders
+  - Surrounded region
+- DP
+  - Fibonacci sequence
+  - Mininum number of squares
+  - Coin change problem
+  - Knapsack
+  - Longest increasing subsequence 
+  - Longest common subsequence
+  - Matrix chain multiplication
+  - Minimum jumps to reach end
+  - Optimal Game Stratergy
+  - Number of subsequence
+  - Count number of Binary Strings
+  - O-N Knapsack
+  - Kadane algorithm
+  - Maximum length of bitonic subsequence
+  - Friends pairing problem
+  - Ugly numbers
+  - LCS with three strings
+  - K ordered LCS 
+- Algorithms
+  - Prims
+  - Kruskal's
+  - Dijkstra's
+  - Bellman Ford
+  - Floyd Warshall
+- Tries
+  - XOR subarray
+  - Trie bash
+  - Digital Dictionary
+- Number Theory Advanced
+  - Extended Euclid algorithm
+  - Multiplicative modulo inverse
+  - Euler Totient function
+  - Binary exponentiation
+  - Fermat Little and Wilson Theorem
+  - Boring Factorials SPOJ
+- Introduction to Fibonacci in log(n)
+- String algorithms
+  - String hashing
+  - Substr() function
+  - KMP algorithm
+  - Kabin Karp algorithm
+- Guide to interactive problems
+- Segment Trees
+  - Queries
+  - Maximum and minimum queries/updation
+  - Number of minimums on a segment 
+  - Segment and max sum
+  - Kth one
+  - First element at least X
+  - Nested segments
+  - Intersecting segments
+- Fenwick trees
+  - Point and range updation
+  - Count inversion
+- Square root decomposition
+  - Mo's algorithm
+- DQuery SPOJ
+
+
+
