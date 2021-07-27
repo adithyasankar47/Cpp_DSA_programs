@@ -1,21 +1,16 @@
 #include <iostream>
 using namespace std;
-int Partition(int *arr, int start, int end)
+int Partition(int arr[], int start, int end)
 {
     int pivot = arr[end];
     int partitionIndex = start;
     for (int i = start; i < end; ++i)
-    {
         if (arr[i] <= pivot)
-        {
-            swap(arr[i], arr[partitionIndex]);
-            partitionIndex++;
-        }
-    }
+            swap(arr[i], arr[partitionIndex++]);
     swap(arr[partitionIndex], arr[end]);
     return partitionIndex;
 }
-void quickSort(int *arr, int start, int end)
+void quickSort(int arr[], int start, int end)
 {
     if (start < end)
     {
@@ -30,9 +25,6 @@ int main()
     int len = sizeof(arr) / sizeof(arr[0]);
     quickSort(arr, 0, len);
     for (int i = 0; i < 8; ++i)
-    {
         cout << arr[i] << " ";
-    }
-    cout << endl;
     return 0;
 }
