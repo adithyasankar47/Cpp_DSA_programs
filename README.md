@@ -11,10 +11,10 @@ The links to the questions and a short summary is provided as a comment at the t
 _All solutions have been tried out using a test case._
 
 - Arrays
-  - [Links to array questions from GeeksforGeeks] (https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
+  - [Links to array questions from GeeksforGeeks](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
 
 **Credits**
 
-- [Code Skool youtube channel] (https://www.youtube.com/channel/UCnTwsAoqgyDVe5hxOmbMOiw)
-- [Roadmap to learn DSA video by Code Skool] (https://www.youtube.com/watch?v=WjYdkHzcGhc&list=PLK-9NYzdBDcG1IC-LFtC7HvRWBP5Lf6XW)
-- [Love Babbar STL] (https://www.youtube.com/watch?v=mOzPZ3hWFVQ&list=WL&index=2)
+- [Code Skool youtube channel](https://www.youtube.com/channel/UCnTwsAoqgyDVe5hxOmbMOiw)
+- [Roadmap to learn DSA video by Code Skool](https://www.youtube.com/watch?v=WjYdkHzcGhc&list=PLK-9NYzdBDcG1IC-LFtC7HvRWBP5Lf6XW)
+- [Love Babbar STL](https://www.youtube.com/watch?v=mOzPZ3hWFVQ&list=WL&index=2)
